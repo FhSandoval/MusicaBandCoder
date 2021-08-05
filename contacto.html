@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arctic Monkeys- Contacto, desde este espacio podras dejarnos un comentario, reseña o invitacion para poder mejorar o aportar datos a esta comunidad."><!--Meta ddescripcion Home-->
+    <meta name="keywords" content="Arctic Monkeys,Contacto, Banda, Comentario, Email, Nombre, Apellido"><!--Kw con palabras Clave-->
+    <link rel="stylesheet" type="text/css" href="sass/css/contacto.css"><!--Link a css-->
+	<link rel="preconnect" href="https://fonts.gstatic.com"><!--Fuente-->
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet"><!--Fuente-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"><!--Boostrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--Boostrap-->
+    <title>Arctic Monkeys- Contacto</title>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <!--Inicio de botonera!-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container-fluid botonera">
+           <div class="navbar-header botonera">             
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><!--Menu Hamburguesa-->
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand" href="index.html">Arctic Monkeys</a>
+           </div>
+           <!--Lista con enlaces a otras paginas-->
+           <div class="collapse navbar-collapse" id="myNavbar">
+             <ul class="nav navbar-nav">
+               <li class="active"><a href="index.html">Home</a></li>
+               <li><a href="discografia.html">Discografia</a></li>
+               <li><a href="galeria.html">Galeria</a></li>
+               <li><a href="contacto.html">Contacto</a></li>
+               <li><a href="#redes">Redes</a></li>
+           </div>
+         </div>
+       </nav>
+       <!--Logo de botonera!-->
+       <!--Fin de Botonera!-->
+  </header>
+     <!--Contenido-->
+     <section>
+         <!--Formulario-->
+        <div class="container formulario">
+            <h1>Contacto</h1><!--Titulo Principal-->
+            <h2>Contactate con nosotros!!</h2><!--Titulo Secundario-->
+            <form class="formulario"><!--Inicio de Form-->
+              <div class="form-group formulario">
+                <label for="nombre">Nombre:</label><!--Casillero de Nombre-->
+                <input type="text" class="form-control" id="usr">
+              </div>
+              <div class="form-group">
+                <label for="apellido">Apellido</label><!--Casillero de Apellido-->
+                <input type="text" class="form-control" id="pwd">
+              </div>
+              <div class="form-group">
+                <label for="correo">Correo Electronico:</label><!--Casillero de Email-->
+                <input type="email" class="form-control" id="pwd">
+              </div>
+              <div class="checkbox">
+                  <h4>Sexo:</h4><!--Titulo de Genero-->
+                <label><input type="checkbox" value="">Masculino</label><!--Genero M-->
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Femenino</label><!--Genero F-->
+              </div>
+              <div class="checkbox disabled">
+                <label><input type="checkbox" value="">Otro</label><!--Genero X-->
+              </div>
+
+              <div class="form-group">
+                <label for="comment">Dejanos tu Comentario:</label><!--Casillero para ingresar comentario o reseña-->
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Acepta terminos y Condiciones</label><!--Check box de acepta terminos-->
+                  </div>
+              </div>
+              <div class="boton"><button type="reset">Reestablecer</button></div><!--Boton de Reset-->
+              <div class="boton"><button type="submit">Enviar</button></div><!--Boton de Enviar o Submit-->
+            </form>
+          </div>
+    </section>
+    <!--Pie de Pagina-->
+    <footer>
+		<nav id="redes">
+			<ul class="navi">
+			    <li><a href="https://www.facebook.com/ArcticMonkeys"><img class="redes__f col-sm-4 col-md-4 col-lg-4 " src="sass/css/img/facebook.png" alt=""></a></li><!--Enlace a face-->
+				<li><a href="https://www.instagram.com/arcticmonkeys/?hl=es-la"><img class="redes__i col-sm-4 col-md-4 col-lg-12" src="sass/css/img/instagram.png" alt=""></a></li><!--Enlace a Instragram-->
+				<li><a href="#"><img class="redes__w col-sm-4 col-md-4 col-lg-4" src="sass/css/img/whatsapp.png" alt=""></a></li><!--Enlace a Wpp-->
+			</ul>
+		</nav>
+    </footer>	
+<!--Fin de pie de pagina-->
+</body>
+</html>

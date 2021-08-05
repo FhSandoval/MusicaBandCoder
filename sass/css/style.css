@@ -1,0 +1,55 @@
+/*Header*/
+* {
+  text-decoration: none;
+  font-family: 'Suez One', serif;
+  color: black; }
+  * .botonera {
+    background-color: black; }
+
+/*Section*/
+* {
+  color: orange;
+  padding: 0%;
+  margin: 0%; }
+  * section {
+    background-color: black; }
+    * section .titulo {
+      text-align: center; }
+      * section .titulo h1 {
+        color: white; }
+      * section .titulo p {
+        text-align: left; }
+    * section .caja__texto {
+      margin-bottom: 5%; }
+      * section .caja__texto h3 {
+        color: white; }
+
+/*Footer*/
+* {
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  font-family: 'Suez One', serif; }
+  * footer {
+    width: 100%; }
+    * footer .navi {
+      width: 100%;
+      background-color: black;
+      list-style-type: none;
+      text-align: center;
+      padding: 0;
+      margin: 0; }
+      * footer .navi .redes__f, * footer .navi .redes__i, * footer .navi .redes__w {
+        width: 50px;
+        background-color: black; }
+    * footer .navi li {
+      padding: 3% 0%;
+      display: inline-block;
+      width: 10%; }
+      * footer .navi li a {
+        width: 10%; }
+        * footer .navi li a :hover {
+          transition: 1s;
+          transform: scale(2); }
+
+/*# sourceMappingURL=home.css.map */

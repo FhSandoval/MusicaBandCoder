@@ -1,0 +1,19 @@
+@import"header";
+*{
+    color: black;
+    section{
+       background-color: black;
+        h1{
+            margin-top: 55px;
+        }
+        .formulario{
+            background-image: linear-gradient(to left, black, rgb(216, 144, 10));
+        }
+        .boton{
+            color: black;
+            padding: 10px;
+            background-color: none;
+        }
+    }
+}
+@import"footer";
